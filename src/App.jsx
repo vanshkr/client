@@ -8,8 +8,8 @@ const App = () => {
       <div className='block bg-black'>
         <Navbar/>
       </div>
-      <div className="px-6 h-[calc(100vh-72px)] overflow-y-scroll hide-scrollbar flex xl:flex-row flex-col">
-        <div className="flex-1 h-fit pb-40">
+      <div className="px-6 h-[calc(100vh-72px)] overflow-y-scroll hide-scrollbar flex xl:flex-row flex-col w-full">
+        <div className="flex-auto h-fit pb-40 w-full">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/anime-details/:animeTitle" element={<AnimeDetails />} />
